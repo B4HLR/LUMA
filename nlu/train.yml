@@ -1,0 +1,169 @@
+commands:
+  # Hora
+  - commmand:
+    input:  Que horas são?
+    entity: time
+    action: getTime
+  - commmand:
+    input:  Me digas horas.
+    entity: time
+    action: getTime
+  - commmand:
+    input:  Eu quero saber as horas.
+    entity: time
+    action: getTime
+  # Data
+  - commmand:
+    input:  Qual é a data de hoje?
+    entity: time
+    action: getDate
+  - commmand:
+    input:  Data de hoje.
+    entity: time
+    action: getDate
+  - commmand:
+    input:  Que dia é hoje?
+    entity: time
+    action: getDate
+  - commmand:
+    input:  Data
+    entity: time
+    action: getDate
+  # YouTube
+  - commmand:
+    input:  reproduza no youtube
+    entity: open
+    action: YouTube
+  - commmand:
+    input:  Abra no youtube
+    entity: open
+    action: YouTube
+  - commmand:
+    input:  reproduzir no youtube
+    entity: open
+    action: YouTube
+  - commmand:
+    input:  abrir no youtube
+    entity: open
+    action: YouTube
+  - commmand:
+    input:  no youtube abra
+    entity: open
+    action: YouTube
+  # Pesquisa 
+  - commmand:
+    input:  Qual o significado de
+    entity: open
+    action: pesquisa
+  - commmand:
+    input:  o que significa
+    entity: open
+    action: pesquisa
+  - commmand:
+    input:  o que é 
+    entity: open
+    action: pesquisa
+  - commmand:
+    input:  quais foram
+    entity: open
+    action: pesquisa
+  - commmand:
+    input:  quem foi 
+    entity: open
+    action: pesquisa
+  # Tradutor
+  - commmand:
+    input:  traduza para o inglês
+    entity: open
+    action: Transl
+  # exit
+  - commmand:
+    input:  abortar
+    entity: exit
+    action: ss
+  - commmand:
+    input:  sair
+    entity: exit
+    action: ss
+  - commmand:
+    input:  fechar
+    entity: exit
+    action: ss
+  # pesquisar Imagem
+  - commmand:
+    input:  quero imagens de
+    entity: pesquisar
+    action: imagem
+  - commmand:
+    input:  me dê imagens de
+    entity: pesquisar
+    action: imagem
+  - commmand:
+    input:  quero fotos de
+    entity: pesquisar
+    action: imagem
+  - commmand:
+    input:  quadro da
+    entity: pesquisar
+    action: imagem
+  - commmand:
+    input:  quadros de
+    entity: pesquisar
+    action: imagem
+  - commmand:
+    input:  quadros da
+    entity: pesquisar
+    action: imagem
+  - commmand:
+    input:  fotos de
+    entity: pesquisar
+    action: imagem
+  - commmand:
+    input:  me mostre
+    entity: pesquisar
+    action: imagem
+  # Wikipedia
+  - commmand:
+    input: procure por
+    entity: pesquisar
+    action: wiki
+  - commmand:
+    input: pesquise na wiki
+    entity: pesquisar
+    action: wiki
+  # ABIR EMAIL
+  - commmand:
+    input: abrir e-mail
+    entity: open
+    action: email
+  - commmand:
+    input: abra o e-mail
+    entity: open
+    action: email
+  # Lembrete
+  - commmand:
+    input: criar lembrete para ás
+    entity: lembrete
+    action: create
+  - commmand:
+    input: faça um lembrete para ás
+    entity: lembrete
+    action: create
+  # Piada
+  - commmand:
+    input: me conte uma piada
+    entity: piada
+    action: 
+  - commmand:
+    input: quero uma piada
+    entity: piada
+    action: 
+  #Apresentação
+  - commmand:
+    input: Quem é você
+    entity: apre
+    action:
+  - commmand:
+    input: Se apresente
+    entity: apre
+    action:

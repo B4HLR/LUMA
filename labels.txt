@@ -1,0 +1,12 @@
+exit\ss
+open\Transl
+pesquisar\imagem
+apre\None
+open\email
+open\pesquisa
+open\YouTube
+lembrete\create
+piada\None
+time\getTime
+pesquisar\wiki
+time\getDate
